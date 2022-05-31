@@ -1,0 +1,27 @@
+.Footer {
+    background-color: var(--darkaccent);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    min-height: 60px;
+}
+
+.Footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.Footer a {
+    text-decoration: none;
+    color: var(--whiteaccent);
+    font-size: 18px;
+}
+
+.Footer a:hover {
+    border-bottom: 4px solid var(--whiteaccent);
+}

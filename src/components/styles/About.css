@@ -1,0 +1,30 @@
+.About {
+    background-color: var(--lightaccent);
+    padding: 3em;
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; */
+}
+
+.About h2 {
+    margin: 0;
+    color: var(--darkaccent);
+}
+
+.About p {
+    float: none;
+}
+
+.About img {
+    float: right;
+    margin: .8em;
+}
+
+@media screen and (max-width: 600px) {
+    .About img {
+      float: none;
+      /* background-color: #043565; */
+      margin-left: auto;
+      margin-right: auto;
+    }
+}

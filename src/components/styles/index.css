@@ -1,0 +1,35 @@
+:root {
+  --darkmain: #043565;
+  --lightmain: #208AAE;
+  --whiteaccent: #EDF5FC;
+  --darkaccent: #EF6461;
+  --lightaccent: #AC80A0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .Header {
+    display: inline-block;
+    flex-wrap: wrap;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .Header h1, .Navigation{
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+
+
+}
