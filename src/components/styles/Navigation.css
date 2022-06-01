@@ -14,5 +14,5 @@
 }
 
 .Navigation a:hover {
-    border-bottom: 4px solid var(--whiteaccent);
+    border-bottom: 4px solid var(--lightaccent);
 }

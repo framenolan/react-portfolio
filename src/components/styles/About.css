@@ -1,9 +1,6 @@
 .About {
-    background-color: var(--lightaccent);
     padding: 3em;
-    /* display: flex;
-    flex-direction: column;
-    flex-wrap: wrap; */
+    margin-bottom: 3em;
 }
 
 .About h2 {
@@ -23,7 +20,6 @@
 @media screen and (max-width: 600px) {
     .About img {
       float: none;
-      /* background-color: #043565; */
       margin-left: auto;
       margin-right: auto;
     }

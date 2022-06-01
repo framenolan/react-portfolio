@@ -1,0 +1,63 @@
+.Contact {
+    padding: 3em;
+}
+
+.Contact h2 {
+    margin: 0;
+    color: var(--darkaccent);
+}
+
+.Contact form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    min-width: 300px;    
+    margin: 3em;
+}
+
+.Contact form label {
+    font-size: large;
+    color: var(--darkmain);
+}
+
+.Contact form input {
+    margin: 15px;
+    height: 30px;
+}
+
+.Contact form textarea {
+    margin: 15px;
+}
+
+.Contact form button {
+    margin: 15px;
+    background-color: var(--lightmain);
+    color: var(--whiteaccent);
+    font-size: 18px;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.Contact .hidden {
+    display: none;
+}
+
+.Contact .visible {
+    display: inline;
+}
+
+.Contact #validationError {
+    color: red;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .Contact form {
+      width: 60%;
+    } 
+}

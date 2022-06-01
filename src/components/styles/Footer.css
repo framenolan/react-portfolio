@@ -6,6 +6,9 @@
     align-items: center;
     height: auto;
     min-height: 60px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .Footer ul {
@@ -23,5 +26,5 @@
 }
 
 .Footer a:hover {
-    border-bottom: 4px solid var(--whiteaccent);
+    border-bottom: 4px solid var(--lightaccent);
 }

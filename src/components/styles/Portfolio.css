@@ -1,0 +1,17 @@
+.Portfolio {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 3em;
+    justify-content: center;
+}
+
+.Portfolio h2 {
+    margin: 0;
+    color: var(--darkaccent);
+    width: 100%;
+}
+
+.Portfolio div {
+    margin: 2em;
+}
