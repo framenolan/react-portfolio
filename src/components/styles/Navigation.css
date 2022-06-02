@@ -4,15 +4,32 @@
     list-style: none;
     gap: 15px;
     align-items: center;
+    justify-content: flex-end;
     margin-right: 30px;
 }
 
 .Navigation a {
-    color: var(--whiteaccent);
+    color: var(--darkmain);
     text-decoration: none;
     font-size: 1.2em;
 }
 
-.Navigation a:hover {
-    border-bottom: 4px solid var(--lightaccent);
+.Navigation button {
+    color: var(--darkmain);
+    text-decoration: none;
+    font-size: 1.2em;
+    background: none;
+    border: none;
+}
+
+.Navigation button:hover {
+    border-bottom: 3px solid var(--darkaccent);
+}
+
+.Navigation .CurrentPage {
+    border-bottom: 3px solid var(--darkaccent);
+}
+
+.Navigation .CurrentPage:hover {
+    border-bottom: 3px solid var(--lightaccent);
 }

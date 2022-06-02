@@ -1,22 +1,30 @@
-import React, {useState} from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react';
 import './styles/Navigation.css'
 
-function Navigation() {	
+function Navigation({currentPage, handlePageChange}) {	
+
 
 	return (
 		<ul className="Navigation">
 			<li>
-				<a href='/' to="/">About</a>
+			<button href='/'
+				onClick={() => handlePageChange('About')}
+				className={currentPage=="About"?"CurrentPage":"OtherPage"}>About</button>
 			</li>
 			<li>
-				<a href='/portfolio' to="/portfolio">Portfolio</a>
+			<button href='/portfolio'
+				onClick={() => handlePageChange('Portfolio')}
+				className={currentPage==="Portfolio"?"CurrentPage":"OtherPage"}>Portfolio</button>
 			</li>
 			<li>
-				<a href='/resume' to="/resume">Resume</a>
+			<button href='/resume'
+				onClick={() => handlePageChange('Resume')}
+				className={currentPage==="Resume"?"CurrentPage":"OtherPage"}>Resume</button>
 			</li>
 			<li>
-				<a href='/contact' to="/contact">Contact</a>
+			<button href='/contact'
+				onClick={() => handlePageChange('Contact')}
+				className={currentPage==="Contact"?"CurrentPage":"OtherPage"}>Contact</button>
 			</li>
 		</ul>
   );

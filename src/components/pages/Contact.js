@@ -9,6 +9,7 @@ export default function Contact() {
     const [errorMessage, setErrorMessage] = useState('');
     const [visible, setVisible] = useState('hidden')
 
+
     const handleInputChange = (e) => {
         const { target } = e;
         const inputType = target.name;
@@ -21,6 +22,7 @@ export default function Contact() {
         } else {
             setContactMessage(inputValue)
         }
+
     };
 
     const handleFormSubmit = (e) => {
