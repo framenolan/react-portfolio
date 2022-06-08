@@ -4,7 +4,7 @@
 
 ## Deployed Site
 
-[Deployed Site]()
+[Deployed Site](https://secure-escarpment-95043.herokuapp.com/)
 
 ## Table of Contents
 * [Description](#description)
@@ -18,7 +18,7 @@
 
 ## Description
 
-Thank you for visiting my portfolio! This is a space for me to showcase my skills to potential employers and collaborators. It was built using React, and includes links to the deployed apps and code repositories of some of my work. If you are interested in collaborating with me or employing me, (please reach out)[mailto:frame.nolan@gmail.com]!
+Thank you for visiting my portfolio! This is a space for me to showcase my skills to potential employers and collaborators. It was built using React, and includes links to the deployed apps and code repositories of some of my work. If you are interested in collaborating with me or employing me, [please reach out](mailto:frame.nolan@gmail.com)!
 
 ## Installation
 
