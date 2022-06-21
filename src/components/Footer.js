@@ -12,7 +12,7 @@ export default function Footer() {
                     <a href="https://www.linkedin.com/in/framenolan/" target='_blank' rel="noreferrer">LinkedIn</a>
                 </li>
                 <li>
-                    <a href="" target='_blank' rel="noreferrer">Other Platform</a>
+                    <a href="mailto:frame.nolan@gmail.com" target='_blank' rel="noreferrer">Email</a>
                 </li>
             </ul>
         </footer>

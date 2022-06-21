@@ -1,32 +1,50 @@
 .Project {
     border: solid 3px black;
-    width: 40%;
-    min-width: 200px;
+    width: fit-content;
+    max-width: 40%;
+    min-width: 360px;
     height: 30%;
     min-height: 200px;
     margin: 3em;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
-    align-items: flex-end;
     margin-left: auto;
     margin-right: auto;
     background-color: var(--lightmain);
     color: var(--whiteaccent);
 }
 
-.Project a {
-    text-decoration: none;
-    color: var(--whiteaccent);
+.Project .ProjectHeader {
+    margin: 0;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 8px;
 }
 
 .Project .ProjectName {
-    width: 100%;
-    /* background-color: var(--lightaccent); */
     font-size: 24px;
-    align-self: flex-start;
     margin: 0;
-    margin-left: 5px;
-    padding: 5px;
 }
 
+.Project ul {
+    margin: 0;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Project a {
+    text-decoration: none;
+    color: var(--whiteaccent);
+    margin-right: 5px;
+}
+
+.Project .Background{
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 180px;
+    margin: 0;
+}

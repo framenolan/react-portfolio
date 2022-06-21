@@ -3,6 +3,8 @@
 }
 
 .Resume h2 {
+    margin: 0;
+    margin-bottom: 1em;
     color: var(--darkaccent);
 }
 
@@ -11,5 +13,41 @@
 }
 
 .Resume ul {
-    list-style: circle;
+    /* list-style: none; */
+}
+
+.Resume .ResumeContent {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+
+.Resume .WorkExperience {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0;
+    min-width: 445;
+}
+
+.Resume .left {
+    margin-right: auto;
+    width: 50%;
+    text-align: left;
+    margin: 0;
+    font-weight: 600;
+    /* font-style: italic; */
+    color: var(--darkaccent);
+}
+
+.Resume .right {
+    margin-left: auto;
+    width: 50%;
+    white-space: nowrap;
+    text-align: right;
+    margin: 0;
+    /* font-style: italic; */
+    color: var(--darkmain);
 }

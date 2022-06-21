@@ -3,7 +3,6 @@ import './styles/Navigation.css'
 
 function Navigation({currentPage, handlePageChange}) {	
 
-
 	return (
 		<ul className="Navigation">
 			<li>

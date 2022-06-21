@@ -14,10 +14,55 @@
     margin-left: 30px;
 }
 
+.Header .NavLinks {
+    display: flex;
+    justify-content: flex-end;
+    width: 25%;
+    margin-right: 2em;
+}
+
+.Header a {
+    color: var(--whiteaccent);
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-right: 1em;
+    border-bottom: 3px solid var(--darkmain);
+}
+
+.Header .CurrentPage {
+    border-bottom: 3px solid var(--darkaccent);
+}
+
+.Header .CurrentPage:hover {
+    border-bottom: 3px solid var(--lightaccent);
+}
+
+.Header a:hover {
+    border-bottom: 3px solid var(--darkaccent);
+}
+
+.Header a:active {
+    border-bottom: 3px solid var(--lightaccent);
+}
+
 @media screen and (max-width: 768px) {
     .Header {
       display: inline-block;
       flex-wrap: wrap;
-    } 
+    }
+
+    .Header h1 {
+        text-align: center;
+    }
+
+    .Header .NavLinks {
+        width: 100%;
+        justify-content: space-around;
+        margin-bottom: 1em;
+    }
+
+    .Header a {
+        margin-right: 0;
+    }
 }
 

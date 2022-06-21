@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
-import About from './pages/About';
-import Portfolio from './pages/Portfolio';
-import Resume from './pages/Resume';
-import Contact from './pages/Contact';
-import Navigation from './Navigation';
+import About from '../src/components/pages/About';
+import Portfolio from '../src/components/pages/Portfolio';
+import Resume from '../src/components/pages/Resume';
+import Contact from '../src/components/pages/Contact';
 
 export default function PageContainer() {
 	const [currentPage, setCurrentPage] = useState('');

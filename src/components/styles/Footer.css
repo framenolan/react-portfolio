@@ -26,5 +26,5 @@
 }
 
 .Footer a:hover {
-    border-bottom: 4px solid var(--lightaccent);
+    border-bottom: 4px solid var(--darkmain);
 }
