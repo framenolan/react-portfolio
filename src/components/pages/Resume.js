@@ -1,6 +1,6 @@
 import React from "react";
 import '../styles/Resume.css'
-import pdf from '../../assets/resume.pdf'
+import pdf from '../../assets/Resume-Nolan-Frame-June-2022.pdf'
 
 
 export default function Resume() {
