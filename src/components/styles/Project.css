@@ -1,18 +1,22 @@
 .Project {
+    width: ;
+    height: fit-content;
+}
+
+.Project .ProjectContainer {
     border: solid 3px black;
+    background-color: var(--lightmain);
+    color: var(--whiteaccent);
     width: fit-content;
     max-width: 40%;
     min-width: 360px;
     height: 30%;
     min-height: 200px;
     margin: 3em;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
-    background-color: var(--lightmain);
-    color: var(--whiteaccent);
+    position: relative;
+    left: 0;
 }
 
 .Project .ProjectHeader {
@@ -20,13 +24,20 @@
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 96%;
     padding: 8px;
 }
 
 .Project .ProjectName {
     font-size: 24px;
     margin: 0;
+}
+
+.Project .DescriptionContainer {
+    width: 75%;
+    text-align: center;
+    padding: 1em;
+    
 }
 
 .Project ul {
@@ -39,7 +50,11 @@
 .Project a {
     text-decoration: none;
     color: var(--whiteaccent);
-    margin-right: 5px;
+    
+}
+
+.Project .ProjectDescription {
+
 }
 
 .Project .Background{
